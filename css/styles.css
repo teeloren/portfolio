@@ -10,6 +10,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 /* header */
 .headername {
   font-size: 3rem;
@@ -35,19 +36,30 @@ a {
 }
 .image-card {
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
-/* footer */
+/* sticky footer */
+
+#container {
+  min-height: 100vh;
+  margin-bottom: -12vh;
+}
+
+#container:after {
+  content: "";
+  display: block;
+  height: 12vh;
+}
+
 footer {
   background-color: #eaf2f3;
-  height: 10vh;
-  position: fixed;
+  height: 12vh;
   bottom: 0;
   left: 0;
-  right: 0;
   width: 100vw;
 }
+
 .copyright {
   font-size: 12px;
 }
