@@ -46,22 +46,29 @@ iframe {
   padding: 0;
   overflow: hidden;
 }
+
+.socials {
+  font-size: 0.8rem;
+}
+.skills-icons {
+  font-size: 1.5rem;
+}
 /* sticky footer */
 
 #container {
   min-height: 100vh;
-  margin-bottom: -12vh;
+  margin-bottom: -15vh;
 }
 
 #container:after {
   content: "";
   display: block;
-  height: 12vh;
+  height: 15vh;
 }
 
 footer {
-  background-color: #eaf2f3;
-  height: 12vh;
+  background-color: #aedfe6;
+  height: 15vh;
   bottom: 0;
   left: 0;
   width: 100vw;
