@@ -39,12 +39,9 @@ a {
   height: 300px;
 }
 
-iframe {
-  border: solid 1px #777;
-  width: 400px;
-  height: 300px;
-  padding: 0;
-  overflow: hidden;
+.jquery{
+  height:auto;
+  width: 22%;
 }
 
 .socials {
