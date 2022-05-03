@@ -56,7 +56,13 @@ a {
   min-height: 100vh;
   margin-bottom: -15vh;
 }
-
+#portfolio {
+  min-height: 5vh;
+}
+#contactme{
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
 #container:after {
   content: "";
   display: block;
