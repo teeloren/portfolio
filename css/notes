@@ -1,0 +1,49 @@
+Search Engine Application
+Created a mobile responsive search engine with complete search functionalities by linking to Google Search API. Made the design more robust with the help of JIT Tailwind and is inspired by Google.Added pagination to results displayed using state management.
+
+NextJS
+Tailwind
+Code
+Live
+Project Image
+Chat Application
+An email-based chat application in NextJS with React, Styled-components, Firebase for persistence and Firebase Auth for authentication. The design is heavily inspired by WhatsApp's Desktop client.
+
+NextJS
+Styled Components
+Code
+Live
+Project Image
+News AI Application
+One of my unique builds, I created a voice-powered AI news application. The application is uses Alan AI studio for listening to user queries. The design is based on Material-UI framework.
+
+ReactJS
+AlanAi
+Material-UI
+Code
+Live
+Project Image
+Voice Powered Expense Tracker
+I made a voice-powered Expense Tracker using Speechly API. The application uses Speechly API for voice recognition and responding voice commands for adding transactions.
+
+ReactJS
+Speechly
+Code
+Live
+Project Image
+Twitter Dev
+In this project, I created a full stack social media application having design based on Twitter. The application can create, update and delete posts on real time.
+
+ReactJS
+Mongoose
+Graphql
+Code
+Live
+Project Image
+Netflix Clone
+Created with mobile-first principle designs an OTT Platform having authentication with the Firebase Auth and video playing functionality using ReactJS and Styled Components (reusable Compound Components). The design is heavily inspired by Netflix.
+
+ReactJS
+Styled Components
+Code
+Live
