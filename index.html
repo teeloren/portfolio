@@ -36,7 +36,7 @@
                     <div>
                         <a href='https://github.com/teeloren' target="_blank"><i  alt="guthub icon" class="fab  fa-github m-1"></i></a>
                         <a href='https://www.linkedin.com/in/tanesha-barnes' alt="linkedin icon" target="_blank"><i alt="linkedin icon" class="fab  fa-linkedin-in m-1"></i></a>
-                        <!-- <a href='#'><i data-bs-toggle="modal" data-bs-target="#feedbackModal" class="text-primary fa-solid fa-comment-dots m-1"></i></a> -->
+                        <a href='#'><i data-bs-toggle="modal" data-bs-target="#feedbackModal" class="text-primary fa-solid fa-comment-dots m-1"></i></a>
                     </div>
                 </div>
             </nav>
@@ -424,7 +424,86 @@
                                     </div>
                                 </div>
                             </form>
+
+
                             
+                            <div class="text-end">
+                                <button data-bs-toggle="modal" data-bs-target="#feedbackModal" role='button' class="btn btn-sm btn-info my-3" alt="give feedback button"> <i class="fa-solid fa-comment-dots"> Feedback Form</i></a>
+                            </div> 
+                            <!-- Feedback Modals -->
+                            <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="bg-info modal-header">
+                                            <i class="fa-solid fa-comment-dots m-1"></i>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="https://formsubmit.co/9b64c48d5c7e461e63cc6dad88e903f6" method="POST">
+
+                                                <!-- Q1: Layout -->
+                                                <div class="form-group">
+                                                    <label class="text-secondary fw-lighter my-2">What is your overall opinion of this page?</label><br>
+                                                    <div class="ratingSlide row">
+                                                        <p class="fw-lighter text-muted col-6">Poor</p>
+                                                        <p class="fw-lighter text-muted col-6 text-end"> Excellent</p>
+                                                    </div>
+                                                    <div class="row container">
+                                                        <div class="mb-4 btn-group" role="group" aria-label="opinion of the page rating group">
+                                                            <input type="radio" class="btn-check" name="btnradio" value="1" id="rating1" autocomplete="off">
+                                                            <label class="btn btn-outline-info btn-sm" for="rating1">1</label>
+
+                                                            <input type="radio" class="btn-check" name="btnradio" value="2" id="rating2" autocomplete="off">
+                                                            <label class="btn btn-outline-info btn-sm" for="rating2">2</label>
+
+                                                            <input type="radio" class="btn-check" name="btnradio" value="3" id="rating3" autocomplete="off">
+                                                            <label class="btn btn-outline-info btn-sm" for="rating3">3</label>
+
+                                                            <input type="radio" class="btn-check" name="btnradio" value="4" id="rating4" autocomplete="off">
+                                                            <label class="btn btn-outline-info btn-sm" for="rating4">4</label>
+
+                                                            <input type="radio" class="btn-check" name="btnradio" value="5" id="rating5" autocomplete="off">
+                                                            <label class="btn btn-outline-info btn-sm" for="rating5">5</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Q2: Cat -->
+                                                <label class="text-secondary fw-lighter my-2">Please select your feedback category:</label>
+                                                <div class="row container">
+                                                    <div class="form-group text-center">    
+                                                        <div class="mb-4 btn-group" role="group" aria-label="feedback category">
+                                                            <input type="radio" class="btn-check" name="feedbackradio" value="Suggestion" id="feedbackCat1" autocomplete="off">
+                                                            <label class="btn btn-sm btn-outline-info" for="feedbackCat1">Suggestion</label>
+
+                                                            <input type="radio" class="btn-check" name="feedbackradio" value="Something is not quite right" id="feedbackCat2" autocomplete="off">
+                                                            <label class="btn btn-sm btn-outline-info" for="feedbackCat2">Something is not quite right</label>
+
+                                                            <input type="radio" class="btn-check" name="feedbackradio" value="Compliment" id="feedbackCat3" autocomplete="off">
+                                                            <label class="btn btn-sm btn-outline-info" for="feedbackCat3">Compliment</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Q3: Text -->
+                                                <div class="form-group">
+                                                    <label class="text-secondary fw-lighter my-2" for="feedbackForm">Please leave your feedback below:</label>
+                                                </div>
+                                                <div class="mx-auto mb-3">
+                                                    <textarea class="form-control" id="feedbackForm" name="feedbackForm" rows="3"></textarea>
+                                                </div>
+                                                <!-- Send Button -->
+                                                <div class="form-group mb-2 text-end">
+                                                    <button type="submit" class=" my-2 mx-auto btn btn-secondary">Send</button>
+                                                    <input type="hidden" name="_next" value="https://taneshab.netlify.app/">
+                                                    <input type="hidden" name="_captcha" value="false">
+                                                </div>
+
+                                                <!-- Thank you -->
+                                                <p class="text-center text-info fw-lighter">Thank you for your feedback!</p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
                         </div>
                     </div>  
                   
