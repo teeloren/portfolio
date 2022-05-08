@@ -26,7 +26,7 @@ a {
 .role {
   font-size: 1em;
 }
-
+  
 /* main */
 .selfie {
   border-radius: 50%;
@@ -53,7 +53,6 @@ a {
 .skills-icons {
   font-size: 1.5rem;
 }
-/* sticky footer */
 
 #container {
   min-height: 100vh;
@@ -61,21 +60,11 @@ a {
 }
 
 #myprojects{
-  /* background: #c9cbcd; */
   padding-top: 3vh;
   padding-bottom: 15vh;
   margin-bottom: 0;
 }
-/* #contactme{
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  
-} */
-/* .contact-photo{
-background: #c9cbcd;
-background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8MHwwfHRlYWx8&auto=format&fit=crop&w=1400&q=60");
-height: 50vh;
-} */
+
 .resume{
   height:100vh;
   width:auto;
@@ -85,7 +74,12 @@ height: 50vh;
   display: block;
   height: 15vh;
 }
-
+.feedbackButton{
+position:fixed;
+/* top:90vh; */
+right:20px;
+bottom:20px;
+}
 
 footer {
   background-color: #aedfe6;
